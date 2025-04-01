@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    height: 40px;
+    width:100%;
+    border: 2px solid black;
+    background-color: gray;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+ 
+   
+  }
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+
+.col-left{
+    
+    height: 100%;
+    width: 1000px;
+    border: 2px solid black;
+    
+}
+
+.col-right{
+    height: 100%;
+    width: 200px;
+    border: 2px solid black;
+   
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+.col-40{
+    height: 40px;
+    width:100%;
+    border: 2px solid black;
+    background-color: gray;
+}
