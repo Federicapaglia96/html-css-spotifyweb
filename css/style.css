@@ -11,56 +11,145 @@ img{
     max-width: 100%;
 }
 
-.header{
-    height: 40px;
-    width:100%;
-    border: 2px solid black;
-    background-color: gray;
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin: 15px 0 5px 0;
 }
 
 
-.container {
-    width: 80%;
-    max-width: 1000px;
- 
-   
-  }
+h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin: 5px 0 5px 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:gray;
+    font-size:10px;
+}
+
+
+li{
+    font-family: "Montserrat", sans-serif;
+    color: gray;
+    list-style: none;
+    font-size: 15px;
+    margin: 15px;;
+}
+
+.header{
+    
+    height: 40px;
+    width:100%;
+    border: 2px solid black;
+    background-color: #080b12;
+}
+
+
+
+  
 
 .wrapper{
     display: flex;
     width: 100%;
-    height: 100vh;
-    background-color: cadetblue;
+    height: calc(100vh - 40px);
+    background-color: #141922;
+    overflow-y: auto;
 }
 
 
 .col-left{
     
     height: 100%;
-    width: 1000px;
+    width: 200px;
     border: 2px solid black;
+    background-color: black;
+    padding: 15px;
     
 }
 
 .col-right{
     height: 100%;
-    width: 200px;
     border: 2px solid black;
+    width: calc(100% - 200px);
+
+    
    
+}
+
+
+.row-container{
+    padding:0 0 0 20px;
+   
+}
+
+.col{
+   min-height: 150px;
+   width: 150px;
+   
+   
+
+}
+
+.row{
+    display: flex;
+    gap:20px;
+    margin: 10px 0 0 0;
+    
+
 }
 
 
 
 
+.flex-center{
+    justify-content: center;
+}
 
+
+.title{
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.subtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color:grey;
+}
+
+.left-align{
+    text-align: left;
+}
 
 
 
 /* Footer */
 
-.col-40{
+.footer{
+
     height: 40px;
     width:100%;
     border: 2px solid black;
     background-color: gray;
 }
+
+
+ 
